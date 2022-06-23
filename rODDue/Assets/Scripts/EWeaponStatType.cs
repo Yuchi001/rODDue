@@ -1,9 +1,14 @@
 ﻿public enum EWeaponStatType
 {
-    Damage,
-    Range,
-    ManaRegen,
-    ProjectileSize,
-
-    CastTime,
+    DamageAD,
+    DamageAP,
+    ReloadTime,
+    Recoil,
+    RateOfFire,
+    ShootRange,
+    BulletSpeed,
+    BulletSize,
+    MagCapacity,
+    BulletCount,
+    Weight
 };

@@ -1,14 +1,8 @@
 ﻿public enum EPartName
 {
-    G_main,
-    G_silencer,
-    G_stock,
-    G_sight,
-
-    R_main,
-    R_crystal,
-    
-    B_main,
-    B_arrowHead,
-    B_arrowFletching
+    Sight, // ShootRange, Ricoil, Damage
+    Mag, // MagCapacity, RateOfFire, Ricoil, Damage, Weight
+    Stock, // Ricoil, Weight
+    Main, // Damage, BulletCount, Ricoil, RateOfFire
+    Barrel // BulletSize, Ricoil, Damage, Weight
 };
